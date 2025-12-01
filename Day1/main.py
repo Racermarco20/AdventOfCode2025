@@ -1,16 +1,38 @@
-# This is a sample Python script.
+def start():
+    dial_starting_point = 50
+    zero_count = 0
 
-# Press Umschalt+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    content = load_file()
+    for line in content.splitlines():
+        number = 0
+        if line.startswith("R"):
+            number = line.split("R")[1].strip()
+            number = int(number)
+            dial_starting_point += number
+        elif line.startswith("L"):
+            number = line.split("L")[1].strip()
+            number = int(number)
+            dial_starting_point -= number
+
+        if dial_starting_point > 99:
+            rest = 99 - number
+            dial_starting_point = rest - 1
+        elif dial_starting_point < 0:
+            rest = 99 - number
+            dial_starting_point = rest + 2
+
+        if dial_starting_point == 0:
+            zero_count += 1
+
+        print(dial_starting_point)
+
+    print(zero_count)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Strg+F8 to toggle the breakpoint.
+def load_file():
+    with open("input.txt", "r") as f:
+        return f.read()
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    start()
