@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d23cd5-8b1a-41be-98c0-caa289cbc2c1" name="Changes" comment="chore: add .gitignore with common patterns and update workspace configuration">
-      <change beforePath="$PROJECT_DIR$/.gitigore" beforeDir="false" />
+    <list default="true" id="47d23cd5-8b1a-41be-98c0-caa289cbc2c1" name="Changes" comment="chore: update `start` function to handle zero crossing and refactor dial calculations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -104,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764609132277</updated>
       <workItem from="1764609133478" duration="301000" />
-      <workItem from="1764609481236" duration="3239000" />
+      <workItem from="1764609481236" duration="5902000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -154,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764611666171</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="chore: update `start` function to handle zero crossing and refactor dial calculations">
+      <option name="closed" value="true" />
+      <created>1764612735232</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764612735232</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,9 +174,10 @@
     <MESSAGE value="chore: add IntelliJ IDEA project configuration files" />
     <MESSAGE value="chore: update IntelliJ IDEA workspace configuration" />
     <MESSAGE value="chore: add .gitignore with common patterns and update workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: add .gitignore with common patterns and update workspace configuration" />
+    <MESSAGE value="chore: update `start` function to handle zero crossing and refactor dial calculations" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update `start` function to handle zero crossing and refactor dial calculations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Day1$main.coverage" NAME="main Coverage Results" MODIFIED="1764612707009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Day1$main.coverage" NAME="main Coverage Results" MODIFIED="1764615287113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
