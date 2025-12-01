@@ -42,7 +42,7 @@ def start(is_part_two: bool = False, dial_starting_point_user: int = 50):
         print("\n")
 
     print("--------------------")
-    print("Zero Count:" + str(zero_count))
+    print("Zero Count: " + str(zero_count))
 
 
 def load_file():
@@ -51,4 +51,4 @@ def load_file():
 
 
 if __name__ == '__main__':
-    start(True, 22)
+    start(True, 50)
