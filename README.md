@@ -23,20 +23,20 @@ Der Advent of Code ist ein jährliches Programmier-Event, bei dem vom 1. bis 25.
 
 Der Fortschritt wird unten täglich aktualisiert. Aktuell sind **1 von 12** Tagen (wie im Repo enthalten) gelöst.
 
-| Tag | Status | Sprache | Verzeichnis | Bemerkungen |
-| :---: | :---: | :---: | :---: | :--- |
-| **01** | ✅ Gelöst | **Python** | [`Day01/`](./Day01) | *Hier könntest du später einen kurzen Kommentar hinzufügen.* |
-| 02 | ❌ Ausstehend | | | |
-| 03 | ❌ Ausstehend | | | |
-| 04 | ❌ Ausstehend | | | |
-| 05 | ❌ Ausstehend | | | |
-| 06 | ❌ Ausstehend | | | |
-| 07 | ❌ Ausstehend | | | |
-| 08 | ❌ Ausstehend | | | |
-| 09 | ❌ Ausstehend | | | |
-| 10 | ❌ Ausstehend | | | |
-| 11 | ❌ Ausstehend | | | |
-| 12 | ❌ Ausstehend | | | |
+| Tag | Part 1 | Part 2 | Sprache | Verzeichnis | Bemerkungen |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **01** | ⭐ | ⭐ | **Python** | [`Day01/`](./Day01) | Tag 1 vollständig gelöst (2 Sterne). |
+| 02 | ❌ | ❌ | | | |
+| 03 | ❌ | ❌ | | | |
+| 04 | ❌ | ❌ | | | |
+| 05 | ❌ | ❌ | | | |
+| 06 | ❌ | ❌ | | | |
+| 07 | ❌ | ❌ | | | |
+| 08 | ❌ | ❌ | | | |
+| 09 | ❌ | ❌ | | | |
+| 10 | ❌ | ❌ | | | |
+| 11 | ❌ | ❌ | | | |
+| 12 | ❌ | ❌ | | | |
 
 ## ⚙️ Wie man die Lösungen ausführt
 
