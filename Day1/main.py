@@ -21,11 +21,13 @@ def start(is_part_two: bool = False, dial_starting_point_user: int = 50):
 
         while dial_starting_point < 0:
             dial_starting_point += 100
+            if dial_starting_point == 0: is_zero = True
             if is_part_two and not is_zero:
                 zero_count += 1
                 print("0 was jumped, add it to count")
         while dial_starting_point > 99:
             dial_starting_point -= 100
+            if dial_starting_point == 0: is_zero = True
             if is_part_two and not is_zero:
                 zero_count += 1
                 print("0 was jumped, add it to count")
@@ -49,4 +51,4 @@ def load_file():
 
 
 if __name__ == '__main__':
-    start(True, 50)
+    start(True, 22)
