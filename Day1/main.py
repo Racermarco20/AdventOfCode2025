@@ -14,19 +14,16 @@ def start():
             number = int(number)
             dial_starting_point -= number
 
-        if dial_starting_point > 99:
-            rest = 99 - number
-            dial_starting_point = rest - 1
-        elif dial_starting_point < 0:
-            rest = 99 - number
-            dial_starting_point = rest + 2
+        while dial_starting_point < 0: dial_starting_point += 100
+        while dial_starting_point > 99: dial_starting_point -= 100
 
         if dial_starting_point == 0:
             zero_count += 1
 
-        print(dial_starting_point)
+        print(str(dial_starting_point) + " ----- " + line)
 
-    print(zero_count)
+    print("--------------------")
+    print("Zero Count:" + str(zero_count))
 
 
 def load_file():
