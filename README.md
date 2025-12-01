@@ -21,7 +21,7 @@ Der Advent of Code ist ein jährliches Programmier-Event, bei dem vom 1. bis 12.
 
 ## 🗓️ Fortschritt
 
-Der Fortschritt wird unten täglich aktualisiert. Aktuell sind **1 von 12** Tagen (wie im Repo enthalten) gelöst.
+Der Fortschritt wird unten täglich aktualisiert. Aktuell sind (fast) **1 von 12** Tagen (wie im Repo enthalten) gelöst.
 
 | Tag | Part 1 | Part 2 | Sprache | Verzeichnis | Bemerkungen |
 | :---: | :---: | :---: | :---: | :---: | :--- |
