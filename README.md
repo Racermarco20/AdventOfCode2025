@@ -46,7 +46,7 @@ Der Fortschritt wird unten täglich aktualisiert. Aktuell sind **1 von 12** Tage
 
 1.  Klone dieses Repository:
     ```bash
-    git clone [https://github.com/Racermarco20/AdventOfCode2025.git](https://github.com/Racermarco20/AdventOfCode2025.git)
+    git clone https://github.com/Racermarco20/AdventOfCode2025.git
     cd AdventOfCode2025
     ```
 2.  Navigiere zum gewünschten Tag (z.B. Tag 1) und sieh in der Tabelle nach der verwendeten Sprache.
