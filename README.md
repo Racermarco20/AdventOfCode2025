@@ -6,7 +6,7 @@ Hier dokumentiere und teile ich meine Lösungen für die täglichen Programmiera
 
 ## 🧑‍💻 Über das Projekt
 
-Der Advent of Code ist ein jährliches Programmier-Event, bei dem vom 1. bis 25. Dezember jeden Tag eine neue Reihe von zwei Programmier-Puzzles veröffentlicht wird. Dieses Repository dient als mein persönliches Archiv für die gelösten Aufgaben.
+Der Advent of Code ist ein jährliches Programmier-Event, bei dem vom 1. bis 12. Dezember jeden Tag eine neue Reihe von zwei Programmier-Puzzles veröffentlicht wird. Dieses Repository dient als mein persönliches Archiv für die gelösten Aufgaben.
 
 * **Verwendete Sprachen:** Die Lösungen können in **verschiedenen Programmiersprachen** implementiert werden (aktuell hauptsächlich Python). Die jeweilige Sprache wird in der Fortschrittstabelle unten vermerkt.
 * **Repo-Struktur:** Jede Tagesaufgabe befindet sich in einem eigenen Verzeichnis, z.B. `Day01`, `Day02`, etc.
