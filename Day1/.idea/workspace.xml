@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d23cd5-8b1a-41be-98c0-caa289cbc2c1" name="Changes" comment="chore: enhance zero-crossing logic in `start` function, adjust invocation, and update IntelliJ IDEA workspace configuration">
+    <list default="true" id="47d23cd5-8b1a-41be-98c0-caa289cbc2c1" name="Changes" comment="chore: enhance zero-crossing logic in `start` function, improve dial calculations, and update IntelliJ IDEA workspace configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +109,7 @@
       <workItem from="1764609133478" duration="301000" />
       <workItem from="1764609481236" duration="8617000" />
       <workItem from="1764618173669" duration="42000" />
-      <workItem from="1764658858016" duration="9311000" />
+      <workItem from="1764658858016" duration="10565000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -208,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764667056299</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="chore: enhance zero-crossing logic in `start` function, improve dial calculations, and update IntelliJ IDEA workspace configuration">
+      <option name="closed" value="true" />
+      <created>1764668323988</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764668323988</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,9 +245,10 @@
     <MESSAGE value="chore: refine zero-crossing handling in `start` function and update IntelliJ IDEA workspace configuration" />
     <MESSAGE value="chore: update `start` function invocation and refine IntelliJ IDEA workspace configuration" />
     <MESSAGE value="chore: enhance zero-crossing logic in `start` function, adjust invocation, and update IntelliJ IDEA workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: enhance zero-crossing logic in `start` function, adjust invocation, and update IntelliJ IDEA workspace configuration" />
+    <MESSAGE value="chore: enhance zero-crossing logic in `start` function, improve dial calculations, and update IntelliJ IDEA workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: enhance zero-crossing logic in `start` function, improve dial calculations, and update IntelliJ IDEA workspace configuration" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Day1$main.coverage" NAME="main Coverage Results" MODIFIED="1764668237385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Day1$main.coverage" NAME="main Coverage Results" MODIFIED="1764668993949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
