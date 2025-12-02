@@ -8,36 +8,33 @@ def start(is_part_two: bool = False, dial_starting_point_user: int = 50):
     print("--------------------")
     for line in content.splitlines():
         number = int(line[1:])
-
-        if dial_starting_point == 0:
-            is_zero = True
+        print("Rotate " + line + " beginning from " + str(dial_starting_point) + "")
 
         if line.startswith("R"):
             dial_starting_point += number
         elif line.startswith("L"):
             dial_starting_point -= number
 
-        print("Rotate " + line + " new position:")
+        zero_jumped = 0
 
         while dial_starting_point < 0:
             dial_starting_point += 100
-            if dial_starting_point == 0: is_zero = True
-            if is_part_two and not is_zero:
-                zero_count += 1
-                print("0 was jumped, add it to count")
-        while dial_starting_point > 99:
+            zero_jumped += 1
+            print("Zero jumped: " + str(zero_jumped))
+        while dial_starting_point > 100:
             dial_starting_point -= 100
-            if dial_starting_point == 0: is_zero = True
-            if is_part_two and not is_zero:
-                zero_count += 1
-                print("0 was jumped, add it to count")
+            zero_jumped += 1
+            print("Zero jumped: " + str(zero_jumped))
 
-        is_zero = False
+        if dial_starting_point == 100: dial_starting_point = 0
+
+        print("New position: " + str(dial_starting_point))
 
         if dial_starting_point == 0:
             print("0 reached, add it to count")
             zero_count += 1
-        print(str(dial_starting_point))
+        if is_part_two:
+            zero_count += zero_jumped
         print("New Zero Count: " + str(zero_count))
         print("\n")
 
@@ -51,4 +48,4 @@ def load_file():
 
 
 if __name__ == '__main__':
-    start(True, 50)
+    start(True, 14)
