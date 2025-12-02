@@ -25,8 +25,8 @@ Der Fortschritt wird unten täglich aktualisiert. Aktuell sind (fast) **1 von 12
 
 | Tag | Part 1 | Part 2 | Sprache | Verzeichnis | Bemerkungen |
 | :---: | :---: | :---: | :---: | :---: | :--- |
-| **01** | ⭐ | ❌ | **Python** | [`Day01/`](./Day01) | Part 2 Fehler in der Logik. |
-| 02 | ❌ | ❌ | | | |
+| **01** | ⭐ | ⭐ | **Python** | [`Day01/`](./Day01) | Fertig! |
+| 02 | ❌ | ❌ | **Python** | [`Day02/`](./Day02) | Part1 begonnen! |
 | 03 | ❌ | ❌ | | | |
 | 04 | ❌ | ❌ | | | |
 | 05 | ❌ | ❌ | | | |
