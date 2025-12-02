@@ -1,21 +1,33 @@
-import math
-
-
 def start(dial_starting_point_user: int = 50):
-    dial_starting_point = int(dial_starting_point_user)
     zero_count = 0
+    dial_starting_point = int(dial_starting_point_user)
 
     content = load_file()
+    print("Starting point: " + str(dial_starting_point))
+    print("--------------------")
     for line in content.splitlines():
-        distance = int(line[1:])
-        start_postion = dial_starting_point
+        number = int(line[1:])
+        print("Rotate " + line + " beginning from " + str(dial_starting_point) + "")
 
         if line.startswith("R"):
-            zero_count += math.floor(start_postion + distance / 100)
-            dial_starting_point = (start_postion + distance) % 100
+            dial_starting_point += number
         elif line.startswith("L"):
-            zero_count += math.ceil((start_postion / 100)) - math.ceil((start_postion - distance) / 100)
-            dial_starting_point = (start_postion - distance) % 100
+            dial_starting_point -= number
+        end_position = dial_starting_point % 100  # -> 0
+        zero_jumped = (dial_starting_point // 100)
+
+        if zero_jumped < 1:
+            zero_jumped = zero_jumped * (-1)
+
+        print("Zero Jumped: " + str(zero_jumped))
+        print("New position: " + str(end_position))
+
+        zero_count += zero_jumped
+        dial_starting_point = end_position
+        print("New Zero Count: " + str(zero_count))
+        print("\n")
+
+    print("--------------------")
     print("Zero Count: " + str(zero_count))
 
 
