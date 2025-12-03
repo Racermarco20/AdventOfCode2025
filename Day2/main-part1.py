@@ -1,6 +1,3 @@
-from multiprocessing.dummy import current_process
-
-
 def start():
     data = load_file()
     data = data.split(',')
